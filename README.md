@@ -2,7 +2,7 @@
 
 ## Install
 
-- [Download this repository files](archive/refs/heads/master.zip) or clone it
+- [Download this repository files](../../archive/refs/heads/master.zip) or clone it
 - Build the image with `docker-compose build`
 - Start the container with `docker-compose up -d`
 
