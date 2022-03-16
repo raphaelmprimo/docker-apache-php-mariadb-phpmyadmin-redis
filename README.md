@@ -1,6 +1,13 @@
-###Docker running Apache, PHP 8, MariaDB, PHPMyAdmin & Redis
+# Docker running Apache, PHP 8, MariaDB, PHPMyAdmin & Redis
 
-- Apache/PHP running at 80 port
-- PHPMyAdmin running at 8080 port
-- MariaDB running at 3306
-- Redis running at 6379
+## Install
+
+- Build the image with `docker-compose build`
+- Start the container with `docker-compose up -d`
+
+## Ports
+
+- Apache/PHP -> 80
+- PHPMyAdmin -> 8080
+- MariaDB -> 3306
+- Redis -> 6379
