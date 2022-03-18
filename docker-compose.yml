@@ -53,6 +53,7 @@ services:
     container_name: "redis-srv"
     ports:
       - 6379:6379
+    restart: always
     networks:
       - mynetwork
 
